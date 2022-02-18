@@ -8,7 +8,7 @@ public class EventLog {
 	
 	private String type;
 	
-	private String host;
+	private String HOST;
 	
 	private long timestamp;
 	
@@ -43,11 +43,11 @@ public class EventLog {
 	}
 
 	public String getHost() {
-		return host;
+		return HOST;
 	}
 
 	public void setHost(String host) {
-		this.host = host;
+		this.HOST = host;
 	}
 
 	public long getTimestamp() {
