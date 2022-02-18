@@ -10,7 +10,7 @@ public class EventLog {
 	
 	private String host;
 	
-	private long timeStamp;
+	private long timestamp;
 	
 	private long duration;
 	
@@ -50,12 +50,12 @@ public class EventLog {
 		this.host = host;
 	}
 
-	public long getTimeStamp() {
-		return timeStamp;
+	public long getTimestamp() {
+		return timestamp;
 	}
 
-	public void setTimeStamp(long timeStamp) {
-		this.timeStamp = timeStamp;
+	public void setTimestamp(long timestamp) {
+		this.timestamp = timestamp;
 	}
 
 	public long getDuration() {
